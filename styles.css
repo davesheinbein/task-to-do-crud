@@ -1,0 +1,14 @@
+body { font-family: system-ui, sans-serif; margin: 0; background: #f5f5f5; }
+main { max-width: 600px; margin: 0 auto; padding: 1rem; }
+form { display: flex; flex-direction: column; gap: 0.5rem; }
+input:not([type='checkbox']), textarea { padding: 0.5rem; font: inherit; width: 100%; box-sizing: border-box; }
+button { padding: 0.4rem 0.8rem; cursor: pointer; }
+nav { display: flex; gap: 0.5rem; margin: 1rem 0; }
+nav .active { font-weight: bold; background: #cde; }
+ul { list-style: none; padding: 0; }
+li { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; background: #fff; padding: 0.6rem; margin-bottom: 0.5rem; border-radius: 6px; }
+li .text { flex: 1; min-width: 8rem; }
+li p { margin: 0; color: #555; }
+li.done strong, li.done p { text-decoration: line-through; color: #888; }
+.success { color: #167a16; }
+.error { color: #b00020; }

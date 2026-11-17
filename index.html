@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Task Manager</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<main>
+			<h1>Tasks <small>(user-1)</small></h1>
+			<form id="form">
+				<input id="title" placeholder="Title (required)" />
+				<textarea id="description" placeholder="Description (optional)"></textarea>
+				<button type="submit">Add task</button>
+			</form>
+			<p id="message" role="status"></p>
+			<nav>
+				<button data-filter="all" class="active">All</button>
+				<button data-filter="open">Open</button>
+				<button data-filter="done">Done</button>
+			</nav>
+			<p id="empty" hidden>No tasks yet.</p>
+			<ul id="list"></ul>
+		</main>
+		<script type="module" src="src/app.js"></script>
+	</body>
+</html>

@@ -1,0 +1,9 @@
+{
+	"name": "task-to-do-crud",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"start": "npx serve .",
+		"test": "node --test src/"
+	}
+}
